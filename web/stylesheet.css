@@ -1,0 +1,64 @@
+#acesso{
+    background-color: graytext;
+    text-align: right;
+}
+
+html{
+    height: 100%;
+}
+
+.formBody{
+    background: linear-gradient(to bottom , blue ,cyan );
+    background-attachment: fixed;
+    height: 100%;
+    padding: 0px 10%;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.topDiv{
+    background: lightblue;
+    margin:0px;
+    padding: 1px;
+
+}
+
+.title{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+.formLbl{
+    position: absolute;
+    left: 20%;
+}
+
+.formInpt{
+    position: absolute;
+    left: 40%;
+}
+
+.formBtn{
+    background-color: white;
+    border: 2px solid navy;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    margin: 0 auto;
+    transition:0.5s;
+}
+
+.formBtn:hover{
+    background-color:aqua;
+
+}
+.contentDiv{
+    background: rgba(255,255,255,0.7);
+    margin: 0px;
+    padding: 30px;
+    padding-bottom: 40px;
+    border-top: 2px solid red;
+}
